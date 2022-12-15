@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+@tailwind base;
+@tailwind components;
+
+/* Additional styles */
+@import 'css/global/scroll.css';
+@import 'css/global/animation.css';
+@import 'css/global/library.css';
+@import 'css/pages/admin.css';
+
+@tailwind utilities;
+@import '~antd/dist/antd.css';

@@ -1,0 +1,93 @@
+.container-content {
+    max-height: calc(100vh - 180px);
+}
+.container-content.b--light {
+    color: black;
+}
+.container-content.b--light .border-dashed {
+    border-color: black;
+}
+.container-content.b--light .post--single-content ul li:after {
+    background-color: #00000057;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container-content.f--small article p:first-child {
+        font-size: 12.8px;
+    }
+    .container-content.f--small article p:last-child {
+        font-size: 9.6px;
+    }
+    .container-content.f--small article h1 {
+        font-size: 32px;
+    }
+    .container-content.f--small .post--single-content {
+        font-size: 16px;
+    }
+
+    .container-content.f--large article p:first-child {
+        font-size: 19.2px;
+    }
+    .container-content.f--large article p:last-child {
+        font-size: 14.4px;
+    }
+    .container-content.f--large article h1 {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+    .container-content.f--large .post--single-content {
+        font-size: 24px;
+        line-height: 1.8;
+    }
+}
+.post--single-content p, .post--single-content div, .post--single-content ul, .post--single-content ol {
+    margin-bottom: 1.25em
+}
+.post--single-content h2, .post--single-content h3, .post--single-content h4 {
+    margin-bottom: 1.25em;
+    font-weight: 700;
+    color: inherit;
+}
+.post--single-content ul {
+    padding-left: 0.9375rem;
+    list-style: none;
+}
+.post--single-content ul li {
+    margin-bottom: 1.25em;
+    position: relative;
+}
+.post--single-content ul li:after {
+    content: "";
+    display: block;
+    width: 0.4em;
+    height: 0.4em;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+}
+.post--single-content hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(255 255 255 / 14%);
+}
+.post--single-content h3 {
+    font-size: inherit;
+    line-height: 1.14286;
+}
+.ant-switch .ant-switch-handle {
+    width: 8px;
+    height: 8px;
+    left: 10px;
+}
+.ant-btn.focus\:outline-none:focus {
+    outline: none;
+}
+button.ant-switch.ant-switch-checked:focus {
+    box-shadow: none;
+}
+button.ant-switch:focus {
+    box-shadow: none;
+}
