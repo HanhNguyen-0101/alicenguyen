@@ -10,11 +10,10 @@ import { IMediaModel } from "../../redux/types/media.type";
 import { IProjectModel } from "../../redux/types/project.type";
 import { callback, callbackObj } from "../global/Global";
 
-export const Resume: React.FC<{ mediaArr: Array<IMediaModel> }> = ({ mediaArr }) => {
+export const Resume: React.FC<{ mediaArr: Array<IMediaModel> }> = () => {
     const dispatch = useDispatch();
     const { projectArr } = useSelector((state: ProjectState) => state.project);
     const projectSortDate = _.sortBy(projectArr, ["date"]);
-    const CV = mediaArr.find(i => i.subCategory.name.toLowerCase() === "pdf" && i.enabled && i.title.toLowerCase().includes("cv"));
 
     const renderItem = () => {
         return _.map(projectSortDate, ((i: IProjectModel, idx: number) => {
