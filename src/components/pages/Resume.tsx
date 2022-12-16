@@ -31,8 +31,7 @@ export const Resume: React.FC<{ mediaArr: Array<IMediaModel> }> = ({ mediaArr })
                         <h2 className={`md:text-lg lg:text-xl tracking-wider md:pb-6 lg:pb-8 lg:py-3 lg:w-3/4 text-yellow-300 pb-4 font-semibold inline-block text-lg w-full leading-10`}>{dateStr}</h2>
                         <p className={`md:text-xl lg:text-2xl lg:pb-6 md:pb-4 lg:py-3 tracking-wide text-white pb-6 inline-block text-2xl w-full min-h-max text-center leading-7`}>{i.name}</p>
                         <hr className={`w-3/4 m-auto block`} />
-                        <p className={`text-center font-medium pt-5 pb-7 md:pb-6 lg:pb-12 text-sm text-black opacity-70 uppercase`} style={{ letterSpacing: 4 }}>{i.organization.name}</p>
-                        <p className={`text-sm md:text-base opacity-95 tracking-wide text-white leading-5`}>{i.description?.length > 150 ? `${i.description.slice(0, 150)}...` : i.description}</p>
+                        <p className={`text-center font-medium py-5 md:pb-6 lg:pb-10 text-sm text-black opacity-70 uppercase`} style={{ letterSpacing: 4 }}>{i.organization.name}</p>
                     </div>
                 </NavLink>
             )
@@ -48,7 +47,6 @@ export const Resume: React.FC<{ mediaArr: Array<IMediaModel> }> = ({ mediaArr })
                 <h2 className="md:text-2xl lg:text-3xl md:mb-2 md:-mt-7 lg:-mt-10 mb-4 tracking-wider text-white text-lg font-medium">Resume</h2>
                 <p className="md:text-base lg:text-lg md:pb-3 lg:pb-0 tracking-wide opacity-70 whitespace-nowrap overflow-hidden text-ellipsis">I can accept failure, everyone fails at something. But I can’t accept not trying.</p>
                 <span className="opacity-70 pt-1 md:-mr-32 text-sm inline-block w-full text-right">Michael Jordan</span>
-                {CV && <a href={CV?.src} className="md:px-6 lg:text-base md:right-1/2 md:translate-x-1/2 md:-top-28 md:rounded-bl-3xl md:rounded-br-3xl hover:text-gray-700 hover:opacity-100 focus:text-gray-700 focus:opacity-100 absolute top-0 text-gray-700 font-medium text-sm bg-yellow-200 opacity-80 py-1 px-3 -right-5" target="_blank" rel="noreferrer">Download CV</a>}
             </div>
             <div className={`pb-10 container-dev overflow-y-auto`}>
                 <div className="relative ml-24 mr-5 md:max-w-lg lg:max-w-3xl md:mx-auto">
