@@ -11,7 +11,7 @@ export default function AuthTemplate() {
   return (
     <div className="flex flex-col min-h-screen h-full bg-yellow-100 md:py-5 px-5 py-8">
       <NavLink className="md:absolute md:top-4 md:left-4 mb-8 md:mb-0" to="/admin/dashboard">
-        <img alt="logo" width={180} src="/images/logo/logo.png" />
+        <img alt="logo" width={180} src="images/logo/logo.png" />
       </NavLink>
       <Outlet />
     </div>

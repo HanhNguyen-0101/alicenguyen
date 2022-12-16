@@ -135,7 +135,7 @@ export const MediaDashboard: React.FC<{}> = (props: any) => {
           </button>
           <Popconfirm title={<div className="max-w-xs">
             <p className="text-red-700 font-medium">Are you sure want to delete this line?</p>
-            <p className="pt-2 text-yellow-600 opacity-80 text-xs"><span className="text-black">Note: </span>Blog, User and Project data (thumnail/avatar/images) also will be removed!</p>
+            <p className="pt-2 text-yellow-600 opacity-80 text-xs"><span className="text-black">Note: </span>Blog, User and Project data (thumnail/avatarimages) also will be removed!</p>
           </div>} okText="Yes" cancelText="No" onConfirm={() => handleDelete(i)}>
             <button className="border-none focus:outline-none font-medium">
               <DeleteFilled className="text-red-700" />

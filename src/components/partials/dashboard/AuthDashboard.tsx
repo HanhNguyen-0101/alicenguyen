@@ -141,7 +141,7 @@ export const AuthDashboard: React.FC<{}> = (props: any) => {
       dataIndex: 'avatarObj',
       key: 'avatarObj',
       width: 50,
-      render: (text) => <div className="text-center"><Image width={100} src={text ? text.src : "/images/global/no-image.png"} /></div>
+      render: (text) => <div className="text-center"><Image width={100} src={text ? text.src : "images/global/no-image.png"} /></div>
     },
     {
       title: <div className="uppercase opacity-60 text-center text-xs">action</div>,

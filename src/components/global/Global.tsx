@@ -17,7 +17,7 @@ export const WebDevelopmentLink = () => {
     return <NavLink className="hover:text-inherit focus:text-inherit" to="/development">software development.</NavLink>
 }
 export const Logo = () => {
-    return <NavLink to="/"><img alt="logo" src="/images/logo/logo-white.png" style={{ maxWidth: 145 }} className="inline-block" /></NavLink>
+    return <NavLink to="/"><img alt="logo" src="images/logo/logo-white.png" style={{ maxWidth: 145 }} className="inline-block" /></NavLink>
 }
 export const mapContactWithIcon = (contactArr: any) => {
     return _.map(contactArr, function (o: IContactModel) {

@@ -544,7 +544,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen, isRejectAdmin, isSuperAdmin }) {
             </button>
             {/* Logo */}
             <NavLink to="/admin/dashboard" className="block">
-              <img alt="logo" width={120} src="/images/logo/logo.png" />
+              <img alt="logo" width={120} src="images/logo/logo.png" />
             </NavLink>
           </div>
 

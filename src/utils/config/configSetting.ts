@@ -1,4 +1,4 @@
-export const DOMAIN = 'http://localhost:3001/api/v1/';
+export const DOMAIN = 'https://topaz-azure-limit.glitch.me/api/v1/';
 export const TOKEN = 'token';
 export const AUTH = 'auth';
 
