@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alicenguyen/static/css/main.55b2eab7.css",
+    "main.js": "/alicenguyen/static/js/main.88430752.js",
+    "static/js/787.7abe3886.chunk.js": "/alicenguyen/static/js/787.7abe3886.chunk.js",
+    "index.html": "/alicenguyen/index.html",
+    "main.55b2eab7.css.map": "/alicenguyen/static/css/main.55b2eab7.css.map",
+    "main.88430752.js.map": "/alicenguyen/static/js/main.88430752.js.map",
+    "787.7abe3886.chunk.js.map": "/alicenguyen/static/js/787.7abe3886.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55b2eab7.css",
+    "static/js/main.88430752.js"
+  ]
+}
